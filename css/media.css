@@ -1,0 +1,117 @@
+/**DESKTOP**/
+@media(max-width: 1200px){
+
+}
+
+/**LAPTOP**/
+@media (max-width: 1024px) {
+    .container{
+        width: 85%;
+    }
+
+    iframe{
+        width: 90%;
+    }
+
+    .header-logo{
+        font-size: 93%;
+    }
+
+    .hero-theme{
+        font-size: 38px;
+    }
+
+    .hero-item__p{
+        font-size: 12px;
+        line-height: 80%;
+    }
+
+    .movie-title__item{
+        font-size: 30px;
+    }
+
+    .search{
+        border-radius: 6px;
+        width: 470px;
+        padding: 4px;
+    }
+
+    .header-search{
+        font-size: 90%;
+        line-height: 90%;
+    }
+
+    .footer__item{
+        padding: 0 180px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 80%;
+    }
+    .header-search{
+        font-size: 90%;
+        line-height: 90%;
+    }
+    .footer__item{
+        padding: 0 150px;
+        font-size: 12px;
+    }
+    .hero{
+        width: 250px;
+    }
+
+    .search, .header-search{
+        display: none;
+    }
+    .messenger{
+        padding: 0 250px;
+    }
+    .mess{
+        font-size: 18px;
+    }
+    .footer__item p, .footer-text{
+        font-size: 14px;
+    }
+}
+
+/**IPAD-TABLET**/
+@media (max-width: 768px) {
+    .container{
+        width: 79%;
+    }
+    .hero{
+        width: 280px;
+    }
+    .search, .header-search{
+        display: none;
+    }
+}
+
+/**IPAD MINI**/
+@media (max-width: 576px) {
+    .container{
+        width: 77%;
+    }
+}
+
+/**MOBILE**/
+@media (max-width: 414px) {
+    .container{
+        width: 75%;
+    }
+}
+
+/**IPHONE11**/
+@media (max-width: 390px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/**IPHONE5**/
+@media (max-width: 320px) {
+
+}
